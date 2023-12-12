@@ -58,6 +58,10 @@ const slideToNext = function () {
   sliderEnd();
 
 }
+nextBtn.addEventListener('click', function() {
+  slider.classList.toggle('active');
+});
+
 
 addEventOnElem(nextBtn, "click", slideToNext);
 
